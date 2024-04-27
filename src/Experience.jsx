@@ -9,6 +9,7 @@ import WelcomeText from "./world/WelcomeText";
 import LevelJuly from "./world/levelJuly";
 import Arbolhp from "./world/arbolhp";
 import Palmera from "./world/palmera";
+import Person from "./world/person";
 
 const Experience = () => {
     return (
@@ -28,6 +29,10 @@ const Experience = () => {
                 <Palmera position={[0, 3.5, -80]}/>
                 <LevelJuly 
                     position={[0, 0, -90]}
+                />
+                <Person 
+                    position={[2, -1, -90]}
+                    scale={0.2}
                 />
                 {/* <Arbolhp /> */}
                 {/* <World /> */}
