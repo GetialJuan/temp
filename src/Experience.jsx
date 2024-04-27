@@ -8,6 +8,7 @@ import { Girl } from "./world/Girl";
 import WelcomeText from "./world/WelcomeText";
 import LevelJuly from "./world/levelJuly";
 import Arbolhp from "./world/arbolhp";
+import Palmera from "./world/palmera";
 
 const Experience = () => {
     return (
@@ -22,10 +23,13 @@ const Experience = () => {
             <Suspense fallback={null}>
                 <Lights />
                 <Environments />
-                <LevelJuly 
+                <Palmera position={[0, 0, -100]}/>
+                <Palmera position={[0, 0, -90]}/>
+                <Palmera position={[0, 0, -80]}/>
+                {/* <LevelJuly 
                     position={[0, 0, -100]}
-                />
-                <Arbolhp />
+                /> */}
+                {/* <Arbolhp /> */}
                 {/* <World /> */}
                 {/*<Girl>
                     <WelcomeText position={[0, 1.5, -92]} />
