@@ -14,20 +14,6 @@ export default function LevelJuly(props) {
         position={[0, 0, 0]}
         scale={[2.5, 1, 17.5]}
       />
-      <group position={[-1.605, 1.258, -13.043]} scale={[1.078, 0.514, 0.756]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Esfera_geodésica004.geometry}
-          material={new MeshBasicMaterial({color: "green"})}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Esfera_geodésica004_1.geometry}
-          material={new MeshBasicMaterial({color: "green"})}
-        />
-      </group>
     </group>
   )
 }

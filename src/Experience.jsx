@@ -23,12 +23,12 @@ const Experience = () => {
             <Suspense fallback={null}>
                 <Lights />
                 <Environments />
-                <Palmera position={[0, 0, -100]}/>
-                <Palmera position={[0, 0, -90]}/>
-                <Palmera position={[0, 0, -80]}/>
-                {/* <LevelJuly 
-                    position={[0, 0, -100]}
-                /> */}
+                <Palmera position={[0, 3.5, -100]}/>
+                <Palmera position={[0, 3.5, -90]}/>
+                <Palmera position={[0, 3.5, -80]}/>
+                <LevelJuly 
+                    position={[0, 0, -90]}
+                />
                 {/* <Arbolhp /> */}
                 {/* <World /> */}
                 {/*<Girl>
